@@ -1,0 +1,77 @@
+.title-container p {
+    font-family: "Nunito Sans", sans-serif;
+    color: black;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom:10px;
+}
+
+.title-container a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 20px;
+    cursor:pointer;
+    transition: 0.5s ease-in-out;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    }
+
+.title-container a:hover {
+    font-size: 25px;
+}
+
+.form-container {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    width: 100%;
+}
+
+input {
+    border-radius: 5px;
+    border:2px solid black;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    padding: 10px;
+    background-color: black;
+    color:white;
+}
+
+input[type="submit"] {
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 40%;
+    transition: 0.5s ease-in-out;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: 2px;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color:black;
+}
+
+input::placeholder {
+    color:white;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+
+.agregar {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color:black;
+    font-size:40px;
+    margin:5px;
+    margin-bottom: 20px;
+    margin-top:20px;
+}

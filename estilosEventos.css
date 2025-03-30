@@ -1,0 +1,96 @@
+.title-container p {
+    font-family: "Nunito Sans", sans-serif;
+    color: black;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom:10px;
+}
+
+.title-container a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 20px;
+    cursor:pointer;
+    transition: 0.5s ease-in-out;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    }
+
+.title-container a:hover {
+    font-size: 25px;
+}
+
+table {
+    border-radius: 10px;
+    color:white;
+    font-family: "Nunito Sans", sans-serif;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow:hidden;
+}
+
+.cabecera {
+    background-color: black;
+    border-radius: 10px;
+    color:white;
+    font-family: "Nunito Sans", sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.cabecera th {
+    padding:10px;
+    font-weight: 700;
+}
+
+.registros {
+    background-color: gray;
+    border-style: none;
+
+}
+
+.registros td {
+    padding: 10px;
+}
+
+.cabecera th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.cabecera th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.registros tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.registros tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.registros a {
+    color:inherit;
+    margin-inline: 5px;
+}
+
+.registros a:first-child {
+    padding-left: 10px;
+}
+
+.agregar {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color:black;
+    font-size:40px;
+    margin:5px;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
